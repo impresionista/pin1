@@ -1,6 +1,12 @@
 name: mundose-pin1
 
 services:
+  # testapp:
+  #   image: mguazzardo/testapp
+  #   restart: 'no'
+  #   build:
+  #     context: ./app
+
   jenkins:
     image: docker.io/mguazzardo/pipe-seg
     # image: jenkins/jenkins:lts-jdk21
